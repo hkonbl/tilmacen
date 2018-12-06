@@ -1,0 +1,45 @@
+
+/* Customizing navbar */
+.navbar {
+    background-color: #67AB7B;
+    border: none;
+    border-radius: 0;
+    margin:0;
+    padding:0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    background-color: #528862;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-nav>li:hover {
+    background-color: #528862;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #528862;
+}
+
+/* End of customizing navbar */
+
+/* Customizing featured articles */
+.img-responsive {
+    margin: 0 auto;
+}
+
+.img-wrapper {
+    max-height: 300px;
+    max-width: 300px;
+    margin: auto;
+}
+
+/* End of customizing featured articles */

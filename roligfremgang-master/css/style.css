@@ -1,0 +1,178 @@
+
+/* General tags */
+body {
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.green {
+    color: #67AB7B;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.gold {
+    color: #c1921f;
+}
+
+.silver {
+    color: #c9cdc7;
+}
+
+.bronze {
+    color: #9c7b37;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+/* End General tags */
+
+/* Welcome banner */
+
+.welcome-bg {
+    background-image: url("../img/bg-fm-home1.png");
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.logo-sizer {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+
+/* Featured articles */
+
+.featured-articles {
+    padding: 10px;
+}
+
+.featured-articles-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+.featured-headline, .featured-desc {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.featured-headline {
+    bottom: 80px;
+}
+
+.featured-desc {
+    bottom: 80px;
+}
+
+.no-padding {
+    padding:0;
+}
+
+/* End of featured articles */
+
+/* Undecided part */
+
+.empty-for-now {
+    background-color: #67AB7B;
+    color: white;
+}
+
+.empty-for-now p {
+    font-size: 14px;
+}
+
+/* End undecided part */
+
+/* Quote */
+
+
+hr.separator {
+    border:none;
+    height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0px;
+	border-bottom: 1px
+    solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}
+/* End quote */
+
+/* Articles styling */
+
+.article-wrapper {
+  padding: 10px;
+}
+
+.article-heading {
+  color: #67AB7B;
+}
+
+.article-text {
+
+}
+
+.suggested-articles {
+  background-color: #67AB7B;
+  padding: 10px;
+}
+
+.suggested-articles-heading {
+  color: white;
+}
+
+.further-reading-text {
+  cursor: pointer;
+  color: white;
+}
+
+.further-reading-text:hover {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.img-border {
+  border: 1px solid;
+  border-color: white;
+}
+
+/*  End of articles styling */
+
+/* Footer */
+
+.footer-upper {
+    background-color: #33373d;
+    color: #8d939c;
+    padding-top: 10px;
+}
+
+.footer-lower {
+    background-color: #2b2e32;
+    color: #8d939c;
+    padding: 10px;
+}
+
+/* End footer */
